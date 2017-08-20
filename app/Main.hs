@@ -1,6 +1,7 @@
 module Main where
 
 import SimpleGlut1
+import Wiki1
 
 main :: IO ()
-main = simpleGlut1
+main = wiki1

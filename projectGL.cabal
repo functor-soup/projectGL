@@ -15,12 +15,13 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Lib, SimpleGlut1
+  exposed-modules:     Lib, SimpleGlut1, Wiki1
   build-depends:       base >= 4.7 && < 5
                      , GLUT
                      , StateVar
                      , OpenGL
                      , OpenGLRaw
+                     , vector
   default-language:    Haskell2010
 
 executable projectGL-exe
