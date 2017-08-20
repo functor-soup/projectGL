@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import SimpleGlut1
 
 main :: IO ()
-main = someFunc
+main = simpleGlut1
